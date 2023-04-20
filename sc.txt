@@ -1,0 +1,15 @@
+local Library = loadstring(game:HttpGet("https://nb9z.github.io/marqueshajones.txt"))()
+local Window = Library.CreateLib("SORIX Hub Build a Boat Auto Farm", "DarkTheme")
+local Tab = Window:NewTab("Auto Farms")
+local Section = Tab:NewSection("Auto Farms")
+Section:NewToggle("Auto Farm Gold", "Gold Farm", function(state)
+loadstring(game:HttpGet("https://nb9z.github.io/AHa.txt",true))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewTextBox("More Soon!", "Updating Soon..", function(txt)
+	print(txt)
+end)
