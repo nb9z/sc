@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://nb9z.github.io/marqueshajones.txt"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/nb9z/sc/main/marqueshajones.txt"))()
 local Window = Library.CreateLib("SORIX Hub Build a Boat Auto Farm", "DarkTheme")
 local Tab = Window:NewTab("Auto Farms")
 local Section = Tab:NewSection("Auto Farms")
